@@ -1,0 +1,24 @@
+{
+    "name": "zelframework/security",
+    "version": "v0.1.0",
+    "description": "Security",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Brtizell",
+            "email": "britzel99@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ZelFramework\\Security\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZelFramework\\Security\\Tests\\": "tests/"
+        }
+    }
+}
